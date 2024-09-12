@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    width: 400px;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+
+
+#left-inside-cash-register {
+    margin: 5px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+}
+
+#bills {
+    text-align: left;
+    width: 35%;
+    
+}
+
+#values {
+    text-align: right;
+    width: 15%;
+    
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 1rem;
+    border-width: 1px;
+}
+
+::placeholder {
+    opacity: 0.7;   
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#ffce52, #ffb13b);
+    color: black;
+    display: block;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color:  #e08d11;
+    margin: 5px auto;
+    font-size: 1rem;
+    padding: 2px 0;
+    width: 50%;
+    font-weight: bold;
+}
+
+
+
+button:hover {
+    background-color: black;
+    opacity: 0.6;
+}
+
+button:active {
+    background-color: black;
+    opacity: 0.8;
+}
+
+input {
+    width: 50%;
+}
+
+#change-due {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px 0;
+}
+
+#open {
+    background-color: green;
+    color: white;
+    padding: 0 10px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+#closed {
+    background-color: red;
+    color: white;
+    padding: 0 10px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+
+
+#thank-you-for-shopping {
+    font-family: "Pacifico", cursive;
+    margin-top: 30px;
+}
+
+#thank-you-for-shopping, #after-purchase {
+    visibility: hidden;     /*Ovo sakriva samo. Element je i dalje prisutan. Da sam stavio display: none; onda skroz ukloni.*/
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#total {
+    font-family: Arial, Helvetica, sans-serif;
+}
